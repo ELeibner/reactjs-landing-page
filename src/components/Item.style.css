@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    fill: white;
+}
+
+.box {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    cursor: pointer;
+}
