@@ -15,6 +15,7 @@
 .item {
     display: flex;
     fill: white;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .box {
